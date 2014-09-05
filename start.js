@@ -2,8 +2,9 @@ var express = require('express');
 var path = require('path');
 var http = require('http');
 
-var staticApp = express.static(path.join(__dirname, 'public'));
 
+var STATIC_PATH = path.join(__dirname, 'assets');
+var staticApp = express.static(STATIC_PATH);
 require('./server/app')(function(backendApp) {
 	var app = express();
 
