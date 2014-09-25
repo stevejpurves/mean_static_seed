@@ -8,6 +8,5 @@ It provides the basic structure for as angular application on a node/express api
 
 ToDo
 ----
- - mongoose connection
  - simple angular routing to items page
  - ng-view with router for items
